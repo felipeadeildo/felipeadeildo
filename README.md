@@ -97,7 +97,7 @@
   <a href="https://github.com/sr-pato">
     <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sr-pato&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true"/>
     <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sr-pato&layout=compact&langs_count=7&theme=synthwave"/>
-    <img src="https://github-profile-trophy.vercel.app/?username=sr-pato&theme=synthwave">
+    <img src="https://github-profile-trophy.vercel.app/?username=sr-pato&theme=onedark">
 </div>
 
 <hr><br>

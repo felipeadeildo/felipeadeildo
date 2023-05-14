@@ -23,8 +23,13 @@
 
 <hr><br>
 
-## General Stats <a href="https://dev.to/aayushidroid" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="aayushi-droid" height="40" width="40" /></a>
-</p>
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="25"><b> Skills</b>
+
+
+<!-- 
+## General Stats <a href="https://dev.to/aayushidroid" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="aayushi-droid" height="40" width="40" /></a> -->
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>Github Stats</b>
 
 <div align="center">
   <a href="https://github.com/sr-pato">
@@ -34,6 +39,7 @@
 </div>
 
 <hr><br>
+  
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->

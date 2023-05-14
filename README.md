@@ -23,14 +23,17 @@
 
 <hr><br>
 
+## General Stats <a href="https://dev.to/aayushidroid" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="aayushi-droid" height="40" width="40" /></a>
+</p>
+
 <div align="center">
   <a href="https://github.com/sr-pato">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sr-pato&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sr-pato&layout=compact&langs_count=7&theme=dracula"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=sr-pato&theme=gruvbox">
 </div>
 
 <hr><br>
 
 <!--START_SECTION:waka-->
-
 <!--END_SECTION:waka-->

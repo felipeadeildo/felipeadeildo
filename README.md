@@ -96,15 +96,6 @@
 <a href="https://github.com/felipe.adeildo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
 
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> <b>Github Stats</b>
-
-<div align="center">
-  <p align='center'><img src="https://github-readme-streak-stats.herokuapp.com?user=sr-pato&theme=synthwave&hide_border=true&date_format=M%20j%5B%2C%20Y%5D"></p>
-  <a href="https://github.com/sr-pato">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sr-pato&show_icons=true&theme=synthwave&include_all_commits=true&count_private=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sr-pato&layout=compact&langs_count=7&theme=synthwave"/>
-    <img src="https://github-profile-trophy.vercel.app/?username=sr-pato&theme=onedark">
-</div>
 
 <hr><br>
   

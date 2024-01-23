@@ -11,8 +11,8 @@
 <br>
 
 <p align='center'>
-<img src="https://komarev.com/ghpvc/?username=sr-pato">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/sr-pato?style=social">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=felipe-adeildo">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/followers/felipe-adeildo?style=social">&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 

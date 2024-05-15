@@ -11,8 +11,8 @@
 <br>
 
 <p align='center'>
-<img src="https://komarev.com/ghpvc/?username=felipe-adeildo">&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/followers/felipe-adeildo?style=social">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://komarev.com/ghpvc/?username=felipeadeildo">&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/followers/felipeadeildo?style=social">&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -25,7 +25,7 @@
 <a href="mailto:oie.eu.sou.um@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="mailto:felipe.adeildo@proton.me"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white"></a>
 <a href="https://api.whatsapp.com/send?phone=558294011841"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white"></a>
-<a href="https://github.com/felipe-adeildo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+<a href="https://github.com/felipeadeildo"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
 
 
 

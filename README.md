@@ -35,11 +35,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Python                     13 hrs 4 mins   ██████████████░░░░░░░░░░░   56.31 %
-TypeScript                 4 hrs 6 mins    ████▒░░░░░░░░░░░░░░░░░░░░   17.70 %
-XML                        1 hr 27 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.27 %
-YAML                       1 hr 9 mins     █▒░░░░░░░░░░░░░░░░░░░░░░░   04.96 %
-Nginx configuration file   56 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.05 %
+Python                     18 hrs 7 mins   ███████████████▓░░░░░░░░░   62.50 %
+TypeScript                 3 hrs 47 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.06 %
+HTML                       1 hr 37 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.58 %
+XML                        1 hr 27 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.02 %
+YAML                       1 hr 3 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.65 %
 ```
 
 <!--END_SECTION:waka-->

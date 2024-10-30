@@ -34,12 +34,17 @@
 
 <!--START_SECTION:waka-->
 
-```txt
-TypeScript   18 hrs 30 mins  ███████████▒░░░░░░░░░░░░░   45.50 %
-Python       17 hrs 16 mins  ██████████▓░░░░░░░░░░░░░░   42.46 %
-YAML         1 hr 28 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.64 %
-Bash         54 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.22 %
-JSON         49 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.02 %
+```ansi
+From: 22 October 2024 - To: 29 October 2024
+
+Total Time: 40 hrs 9 mins
+
+TypeScript   18 hrs 30 mins  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   45.50 %
+Python       17 hrs 16 mins  ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   42.46 %
+Bash         54 mins         ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   02.22 %
+Other        31 mins         ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   01.31 %
+JavaScript   28 mins         ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   01.18 %
+HTML         12 mins         ⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡⚡   00.49 %
 ```
 
 <!--END_SECTION:waka-->

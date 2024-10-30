@@ -1,19 +1,35 @@
-name: Waka Readme
+name: Killua's Nen Training Stats
 
 on:
-  workflow_dispatch: # for manual workflow trigger
+  workflow_dispatch:
   schedule:
-    - cron: "0 0 * * *" # runs at every 12AM UTC
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
-    name: WakaReadme DevMetrics
+    name: Update Nen Training Progress
     runs-on: ubuntu-latest
     steps:
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          # following flags are required, only if this is not on
-          # profile readme, remove the leading `#` to use them
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          #REPOSITORY: <gh_username/gh_username>
+          
+          # Customização do Conteúdo
+          SHOW_TITLE: true
+          SECTION_NAME: "waka"
+          BLOCKS: "⚡⚡⚡⚡⚡"
+          CODE_LANG: ansi
+          TIME_RANGE: last_7_days
+          LANG_COUNT: 8    
+          SHOW_TIME: true 
+          SHOW_TOTAL: true
+          SHOW_MASKED_TIME: false
+          
+          # Mensagem de Commit
+          COMMIT_MESSAGE: "⚡ Godspeed Training Progress Updated ⚡"
+          COMMITTER_NAME: "Killua Bot"
+          COMMITTER_EMAIL: "killua-bot@zoldyck.family"
+          
+          # Linguagens para ignorar
+          IGNORED_LANGUAGES: "Text Markdown YAML JSON TOML"

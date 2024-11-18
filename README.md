@@ -35,7 +35,7 @@
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 09 November 2024 - To: 16 November 2024
+From: 10 November 2024 - To: 17 November 2024
 
 Total Time: 11 hrs 39 mins
 

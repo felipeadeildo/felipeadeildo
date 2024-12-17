@@ -14,82 +14,45 @@
 ## About Me 🎭
 
 ```python
-from typing import List, Literal, Optional, TypedDict, final
-from enum import Enum, auto
-
+from typing import List, Literal
+from enum import Enum
 
 class Interest(Enum):
-    MATHEMATICS = auto()
-    NEURAL_NETWORKS = auto()
-    WEB_SCRAPING = auto()
+    MATHEMATICS = "Mathematics"
+    NEURAL_NETWORKS = "Neural Networks"
+    WEB_SCRAPING = "Web Scraping"
 
-
-class ProjectInfo(TypedDict):
-    name: str
-    description: str
-    tech_stack: List[str]
-
-
-@final  # This class should not be inherited
 class Developer:
     def __init__(
         self,
         name: str,
         role: str,
         interests: List[Interest],
-        favorite_anime: Optional[str] = None,
-        favorite_character: Optional[str] = None
+        favorite_anime: str,
+        favorite_character: str
     ) -> None:
-        """Initialize a Developer with strong typing and validation.
-        
-        Args:
-            name: The developer's full name
-            role: Current professional role
-            interests: List of validated interests from Interest enum
-            favorite_anime: Optional favorite anime
-            favorite_character: Optional favorite character
-        """
-        self.__name: str = name
-        self.__role: str = role
-        self.__interests: List[Interest] = self.__validate_interests(interests)
-        self.__favorite_anime: Optional[str] = favorite_anime
-        self.__favorite_character: Optional[str] = favorite_character
-        self.__philosophy: str = "Building everything from scratch"
+        self.name = name
+        self.role = role
+        self.interests = interests
+        self.favorite_anime = favorite_anime
+        self.favorite_character = favorite_character
+        self.philosophy = "Building everything from scratch"
     
-    @property
-    def name(self) -> str:
-        return self.__name
+    def current_focus(self) -> str:
+        return "Developing neural networks from scratch using pure NumPy"
     
-    @staticmethod
-    def __validate_interests(interests: List[Interest]) -> List[Interest]:
-        """Validate that all interests are from the Interest enum."""
-        if not all(isinstance(interest, Interest) for interest in interests):
-            raise ValueError("All interests must be from the Interest enum")
-        return interests
-    
-    def get_current_focus(self) -> ProjectInfo:
-        """Get information about current focus project."""
-        return {
-            "name": "Neural Network Implementation",
-            "description": "Developing neural networks from scratch using pure NumPy",
-            "tech_stack": ["Python", "NumPy"]
-        }
-    
-    def get_programming_style(self) -> Literal["from scratch", "with frameworks"]:
-        """Get the developer's programming philosophy."""
-        return "from scratch"  # We always choose the hard way 💪
-    
-    def get_expertise_level(self, tech: str) -> Literal["beginner", "intermediate", "expert"]:
-        """Get expertise level for a specific technology."""
-        # Implementation would vary based on tech
-        return "expert" if tech.lower() in ["python", "numpy"] else "intermediate"
+    def programming_style(self) -> Literal["from scratch", "with frameworks"]:
+        return "from scratch"  # Always from scratch 💪
 
-
-# Usage example:
+# Example:
 me = Developer(
     name="Felipe Adeildo",
     role="Computer Science Student",
-    interests=[Interest.MATHEMATICS, Interest.NEURAL_NETWORKS, Interest.WEB_SCRAPING],
+    interests=[
+        Interest.MATHEMATICS,
+        Interest.NEURAL_NETWORKS,
+        Interest.WEB_SCRAPING
+    ],
     favorite_anime="Hunter x Hunter",
     favorite_character="Hisoka 🃏"
 )

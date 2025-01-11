@@ -103,7 +103,7 @@ me = Developer(
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 02 January 2025 - To: 09 January 2025
+From: 03 January 2025 - To: 10 January 2025
 
 Total Time: 8 hrs 30 mins
 

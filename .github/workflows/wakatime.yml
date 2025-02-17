@@ -18,7 +18,6 @@ jobs:
           # Customização do Conteúdo
           SHOW_TITLE: true
           SECTION_NAME: "waka"
-          BLOCKS: "⚡⚡⚡⚡⚡"
           CODE_LANG: ansi
           TIME_RANGE: last_7_days
           LANG_COUNT: 8    

@@ -25,6 +25,19 @@ Currently focused on developing neural networks using pure NumPy.
 
 ## Weekly Coding Stats
 <!--START_SECTION:waka-->
+
+```ansi
+From: 10 February 2025 - To: 17 February 2025
+
+Total Time: 7 hrs 1 min
+
+Python       4 hrs 49 mins   █████████████████▒░░░░░░░   68.76 %
+TypeScript   1 hr            ███▓░░░░░░░░░░░░░░░░░░░░░   14.25 %
+Prisma       9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.20 %
+Bash         3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
+Other        0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.16 %
+```
+
 <!--END_SECTION:waka-->
 
 ## Contact

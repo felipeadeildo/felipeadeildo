@@ -27,16 +27,17 @@ Currently focused on developing neural networks using pure NumPy.
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 24 February 2025 - To: 03 March 2025
+From: 25 February 2025 - To: 04 March 2025
 
-Total Time: 23 hrs 31 mins
+Total Time: 28 hrs 32 mins
 
-Python       15 hrs 22 mins  ████████████████░░░░░░░░░   64.57 %
-TypeScript   5 hrs 51 mins   ██████░░░░░░░░░░░░░░░░░░░   24.64 %
-Bash         41 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.93 %
-Prisma       33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.36 %
-Other        16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.13 %
-Git Config   3 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.23 %
+Python       18 hrs 59 mins  ████████████████▒░░░░░░░░   65.91 %
+TypeScript   6 hrs 19 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.94 %
+Bash         43 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.50 %
+Prisma       33 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
+Other        16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
+Git Config   12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.75 %
+HTML         5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
 ```
 
 <!--END_SECTION:waka-->

@@ -27,16 +27,16 @@ Currently focused on developing neural networks using pure NumPy.
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 13 April 2025 - To: 20 April 2025
+From: 14 April 2025 - To: 21 April 2025
 
-Total Time: 25 hrs 50 mins
+Total Time: 30 hrs 7 mins
 
-Python                     15 hrs 52 mins  ███████████████▒░░░░░░░░░   61.21 %
-TypeScript                 3 hrs 46 mins   ███▓░░░░░░░░░░░░░░░░░░░░░   14.57 %
-Bash                       39 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.56 %
-Docker                     31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.03 %
-HTML                       29 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.88 %
-JavaScript                 24 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.59 %
+Python       19 hrs 16 mins  ████████████████░░░░░░░░░   63.71 %
+TypeScript   1 hr 52 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.19 %
+HTML         1 hr 31 mins    █▒░░░░░░░░░░░░░░░░░░░░░░░   05.06 %
+CSS          1 hr 20 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   04.45 %
+JavaScript   1 hr 2 mins     █░░░░░░░░░░░░░░░░░░░░░░░░   03.47 %
+Bash         53 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.95 %
 ```
 
 <!--END_SECTION:waka-->

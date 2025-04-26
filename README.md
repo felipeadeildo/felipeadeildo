@@ -17,18 +17,21 @@ Python • TypeScript • FastAPI • React • Django • HTMX
 
 ## Weekly Stats
 <!--START_SECTION:waka-->
-```
-ansi
-From: 17 April 2025 - To: 24 April 2025
-Total Time: 41 hrs 4 mins
-Python       30 hrs 35 mins  ██████████████████▓░░░░░░   74.25 %
-HTML         2 hrs 54 mins   █▓░░░░░░░░░░░░░░░░░░░░░░░   07.07 %
-CSS          1 hr 21 mins    ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.29 %
-JavaScript   1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.55 %
-TypeScript   59 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.41 %
-Bash         56 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.27 %
+
+```ansi
+From: 18 April 2025 - To: 25 April 2025
+
+Total Time: 41 hrs 28 mins
+
+Python       30 hrs 2 mins   ██████████████████░░░░░░░   72.20 %
+HTML         3 hrs 32 mins   ██░░░░░░░░░░░░░░░░░░░░░░░   08.49 %
+CSS          1 hr 23 mins    █░░░░░░░░░░░░░░░░░░░░░░░░   03.36 %
+JavaScript   1 hr 2 mins     ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.52 %
+TypeScript   59 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.39 %
+Bash         43 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.76 %
 Prisma       10 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 %
 ```
+
 <!--END_SECTION:waka-->
 
 [![Portfolio](https://img.shields.io/badge/felipeadeildo.com-FF6B6B?style=flat-square&logo=firefox&logoColor=white)](https://felipeadeildo.com)

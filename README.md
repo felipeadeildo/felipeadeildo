@@ -19,15 +19,16 @@ Python • TypeScript • FastAPI • React • Django • HTMX
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 22 June 2025 - To: 29 June 2025
+From: 23 June 2025 - To: 30 June 2025
 
-Total Time: 18 hrs 16 mins
+Total Time: 15 hrs 5 mins
 
-Python       10 hrs 2 mins   █████████████▓░░░░░░░░░░░   54.18 %
-HTML         3 hrs 49 mins   █████░░░░░░░░░░░░░░░░░░░░   20.59 %
-TypeScript   1 hr 18 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   07.10 %
-Prisma       40 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.65 %
-Other        15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 %
+Python       8 hrs 28 mins   ██████████████░░░░░░░░░░░   55.86 %
+HTML         3 hrs 14 mins   █████▒░░░░░░░░░░░░░░░░░░░   21.35 %
+TypeScript   2 hrs 4 mins    ███▒░░░░░░░░░░░░░░░░░░░░░   13.72 %
+Prisma       47 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.25 %
+CSS          10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.21 %
+Other        4 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
 ```
 
 <!--END_SECTION:waka-->

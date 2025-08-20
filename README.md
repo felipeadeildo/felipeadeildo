@@ -6,6 +6,24 @@ Machine Learning | Mathematics | Web Scraping | Almost-Fullstack Development
 
 Computer Science student at Insper. I like to understand how things works really.
 
+## Experience
+
+**Founder / Founding AI Engineer** @ [Verdora](https://verdora.com.br) *(Jun 2025 - Present)*  
+*São Paulo, SP, Brazil • Hybrid*
+
+**Ninja** @ [Insper Instituto de Ensino e Pesquisa](https://insper.edu.br) *(Jul 2025 - Present)*  
+*São Paulo, Brazil • On-site*  
+Computer Science - Developer Life
+
+**Research And Development Assistant** @ [FGV EMAp](https://emap.fgv.br) *(Feb 2025 - Present)*  
+*Rio de Janeiro, Brazil • Hybrid*
+
+**Monitor** @ Novo Ensino Suplementar (NES) *(Feb 2025 - Aug 2025)*  
+*Maceió, Alagoas, Brazil • Remote*
+
+**Full Stack Developer & AI Engineer** @ [Taquar](https://taquar.com.br) *(Jul 2024 - Jun 2025)*  
+*Remote*
+
 ## Tech
 Python • TypeScript • FastAPI • React • Django • HTMX
 

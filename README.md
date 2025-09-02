@@ -19,16 +19,17 @@ Python • TypeScript • FastAPI • React • Django • HTMX
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 24 August 2025 - To: 31 August 2025
+From: 25 August 2025 - To: 01 September 2025
 
-Total Time: 3 hrs 26 mins
+Total Time: 8 hrs 36 mins
 
-HTML         2 hrs 9 mins    ███████████████▓░░░░░░░░░   62.64 %
-Go           30 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.81 %
-Git Config   20 mins         ██▒░░░░░░░░░░░░░░░░░░░░░░   09.87 %
-Python       11 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.33 %
-Docker       3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
-TypeScript   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.54 %
+TypeScript   4 hrs 49 mins   ██████████████░░░░░░░░░░░   55.88 %
+HTML         1 hr 14 mins    ███▓░░░░░░░░░░░░░░░░░░░░░   14.44 %
+Python       41 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.98 %
+Go           30 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.92 %
+Git Config   24 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.79 %
+CSS          24 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.67 %
+Bash         5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.99 %
 ```
 
 <!--END_SECTION:waka-->

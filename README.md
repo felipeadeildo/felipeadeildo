@@ -19,15 +19,16 @@ Python • TypeScript • FastAPI • React • Django • HTMX
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 22 September 2025 - To: 29 September 2025
+From: 23 September 2025 - To: 30 September 2025
 
-Total Time: 3 hrs 19 mins
+Total Time: 1 hr 52 mins
 
-Python       2 hrs 15 mins   ████████████████▓░░░░░░░░   67.19 %
-TypeScript   21 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.46 %
-HTML         12 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.03 %
-JavaScript   2 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.12 %
-Other        1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.73 %
+Python       1 hr 10 mins    ███████████████▓░░░░░░░░░   62.50 %
+TypeScript   21 mins         ████▓░░░░░░░░░░░░░░░░░░░░   18.70 %
+HTML         12 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.79 %
+JavaScript   2 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.00 %
+Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.61 %
+CSS          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
 ```
 
 <!--END_SECTION:waka-->

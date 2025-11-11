@@ -1,4 +1,4 @@
-name: Killua's Nen Training Stats
+name: Waka Readme
 
 on:
   workflow_dispatch:
@@ -14,21 +14,21 @@ jobs:
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          
+
           # Customização do Conteúdo
           SHOW_TITLE: true
           SECTION_NAME: "waka"
           CODE_LANG: ansi
           TIME_RANGE: last_7_days
-          LANG_COUNT: 8    
-          SHOW_TIME: true 
+          LANG_COUNT: 8
+          SHOW_TIME: true
           SHOW_TOTAL: true
           SHOW_MASKED_TIME: false
-          
+
           # Mensagem de Commit
-          COMMIT_MESSAGE: "⚡ Godspeed Training Progress Updated ⚡"
-          COMMITTER_NAME: "Killua Bot"
-          COMMITTER_EMAIL: "killua-bot@zoldyck.family"
-          
+          COMMIT_MESSAGE: "update waka stats"
+          COMMITTER_NAME: "Adeildo Bot"
+          COMMITTER_EMAIL: "contato@felipeadeildo.com"
+
           # Linguagens para ignorar
           IGNORED_LANGUAGES: "Text Markdown YAML JSON TOML"

@@ -1,15 +1,16 @@
 # Felipe Adeildo
 
 ```
-Machine Learning | Mathematics | Web Scraping | Almost-Fullstack Development
+Machine Learning | Mathematics | Web Scraping | Almost-Fullstack Developer (wth's that?)
 ```
 
-Computer Science student at Insper. I like to understand how things works really.
+Computer Science student at Insper. I like to understand how things works really... internally!
 
 ## Tech
-Python • TypeScript • FastAPI • React • Django • HTMX
+Python • TypeScript • GoLang • Anything that makes me money
 
 ## Projects
+- **[whatsapp-mcp](https://github.com/felipeadeildo/whatsapp-mcp)** - WhatsApp MCP on top of WhatsApp Web Unofficial "API"
 - **[neural-network](https://github.com/felipeadeildo/neural-network)** - Neural network from scratch using NumPy
 - **[pytally-sdk](https://github.com/felipeadeildo/pytally-sdk)** - Unofficial Tally.so API SDK
 - **[cantinacf](https://github.com/felipeadeildo/cantinacf)** - Restaurant management system

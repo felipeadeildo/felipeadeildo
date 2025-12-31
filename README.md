@@ -20,15 +20,15 @@ Python • TypeScript • FastAPI • React • Django • HTMX
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 22 December 2025 - To: 29 December 2025
+From: 23 December 2025 - To: 30 December 2025
 
-Total Time: 9 hrs 2 mins
+Total Time: 6 hrs 8 mins
 
-Go           8 hrs 15 mins   ██████████████████████░░░   88.42 %
-Other        17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.18 %
-SQL          17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.11 %
-Git Config   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.30 %
-Terraform    1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.20 %
+Go           5 hrs 20 mins   █████████████████████░░░░   84.50 %
+SQL          16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.36 %
+Other        9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.63 %
+Python       4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.19 %
+Git Config   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
 ```
 
 <!--END_SECTION:waka-->

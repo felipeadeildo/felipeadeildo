@@ -21,15 +21,15 @@ Python • TypeScript • GoLang • Anything that makes me money
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 23 December 2025 - To: 30 December 2025
+From: 24 December 2025 - To: 31 December 2025
 
-Total Time: 6 hrs 8 mins
+Total Time: 4 hrs 12 mins
 
-Go           5 hrs 20 mins   █████████████████████░░░░   84.50 %
-SQL          16 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.36 %
-Other        9 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.63 %
-Python       4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.19 %
-Git Config   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.38 %
+Go           3 hrs 40 mins   █████████████████████░░░░   84.08 %
+Other        9 mins          █░░░░░░░░░░░░░░░░░░░░░░░░   03.75 %
+SQL          5 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
+Python       4 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.71 %
+Git Config   1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.52 %
 ```
 
 <!--END_SECTION:waka-->

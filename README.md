@@ -7,7 +7,7 @@ Machine Learning | Mathematics | Web Scraping | Almost-Fullstack Developer (wth'
 Computer Science student at Insper. I like to understand how things works really... internally!
 
 ## Tech
-Python • TypeScript • GoLang • Anything that makes me money
+Python • TypeScript • GoLang • Anything that makes me money/happy
 
 ## Projects
 - **[whatsapp-mcp](https://github.com/felipeadeildo/whatsapp-mcp)** - WhatsApp MCP on top of WhatsApp Web Unofficial "API"

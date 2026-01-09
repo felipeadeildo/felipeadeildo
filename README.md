@@ -21,16 +21,17 @@ Python • TypeScript • GoLang • Anything that makes me money/happy
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 31 December 2025 - To: 07 January 2026
+From: 01 January 2026 - To: 08 January 2026
 
-Total Time: 15 hrs 1 min
+Total Time: 12 hrs 3 mins
 
-Go             11 hrs 9 mins   █████████████████▓░░░░░░░   71.33 %
-Python         44 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.78 %
-Other          36 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.84 %
-SQL            33 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.54 %
-Docker         21 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.34 %
-Bash           13 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.42 %
+Go             9 hrs 8 mins    ██████████████████░░░░░░░   72.25 %
+Other          35 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   04.68 %
+SQL            33 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.38 %
+Python         31 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   04.19 %
+Docker         21 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.89 %
+Bash           17 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.37 %
+CSV            5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 %
 ```
 
 <!--END_SECTION:waka-->

@@ -21,16 +21,16 @@ Python • TypeScript • GoLang • Anything that makes me money/happy
 <!--START_SECTION:waka-->
 
 ```ansi
-From: 24 January 2026 - To: 31 January 2026
+From: 25 January 2026 - To: 01 February 2026
 
-Total Time: 12 hrs 39 mins
+Total Time: 14 hrs 6 mins
 
-Python      11 hrs 3 mins   ████████████████████▒░░░░   81.74 %
-Other       52 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.45 %
-Bash        9 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.11 %
-Makefile    5 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.71 %
-Docker      2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
-Terraform   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
+Python      12 hrs 16 mins  ████████████████████▒░░░░   81.89 %
+Other       53 mins         █▒░░░░░░░░░░░░░░░░░░░░░░░   05.93 %
+Bash        20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.22 %
+Makefile    5 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 %
+Docker      2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.33 %
+kdl         1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.14 %
 ```
 
 <!--END_SECTION:waka-->

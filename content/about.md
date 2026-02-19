@@ -1,65 +1,93 @@
 ---
-title: "About"
+title: 'About'
 date: 2025-01-01
 draft: false
-description: "About Felipe Adeildo — CS student, developer, rubber duck enthusiast."
+description: "About Felipe Adeildo — Co-Founder @ RanqIA, Fellow Estudar '25, CS @ Insper."
 ---
 
 ## Hey, I'm Felipe 👋
 
-I'm a Computer Science student at **Insper** (São Paulo, Brazil), with a deep passion for web scraping, AI applications, and building tools that make real-world workflows faster and smarter.
+I like to build cool things!
 
-My journey started in middle school, automating boring tasks with Python scripts. Since then, I've gone through competitive programming, academic research, university teaching, and production-level software development.
+Co-Founder at **RanqIA**, Fellow Estudar '25, and Behring Scholar '25. Currently studying Computer Science at **Insper** (São Paulo, Brazil) with a full non-refundable scholarship.
+
+My journey started in middle school at UFAL — automating boring tasks, then doing actual research. Since then I've gone through academia, startups, and now founding my own company.
 
 ---
 
 ## Experience
 
-### Verdora · Software Developer
-*2024 – Present*
+### RanqIA · Founder Engineer
 
-Building internal tools and automation pipelines for a startup. Full-stack work with Python, FastAPI, and React.
+_Dec 2025 – Present · São Paulo, Brazil_
+
+Making your brand visible on ChatGPT-like platforms. AI-driven brand positioning for the LLM era.
+
+### Bravium · Software Engineer
+
+_Dec 2025 – Present · São Paulo, Brazil_
+
+Full-time software engineering at a hybrid São Paulo startup.
+
+### FGV EMAp · Research & Development Assistant
+
+_Feb 2025 – Present · Rio de Janeiro, Brazil (Hybrid)_
+
+R&D work at the School of Applied Mathematics of FGV.
+
+### Insper Code · Developer
+
+_Sep 2025 – Dec 2025 · São Paulo, Brazil_
+
+Built software projects at Insper's dev lab.
 
 ### Insper · Teaching Assistant (Ninja)
-*2023 – Present*
 
-Helping students in algorithms, data structures, and introductory programming. Mentoring lab sessions and grading assignments.
+_Jul 2025 – Dec 2025 · São Paulo, Brazil_
 
-### NES · Research Monitor
-*2023 – 2024*
+Mentored students in **Computer Science – Developer Life**. Lab sessions, code reviews, and grading.
 
-Assisted research in the **Núcleo de Estudos em Saúde** at Insper. Worked on data collection, cleaning, and analysis pipelines.
+### Verdora · Founder
 
-### Taquar · Software Developer
-*2022 – 2023*
+_Jun 2025 – Dec 2025 · São Paulo, Brazil_
 
-Developed backend services and web scrapers for a legal-tech startup. Built integrations with government APIs and court databases.
+Founding AI Engineer. Built AI-powered automation and backend infrastructure.
 
-### LED UFAL · Research Assistant
-*2021 – 2022*
+### NES · Monitor
 
-Worked at the **Laboratório de Exploração de Dados** at UFAL on NLP research. Contributed to datasets, annotation tools, and model evaluation pipelines.
+_Feb 2025 – Aug 2025 · Maceió, Brazil (Remote)_
+
+Research monitor at Novo Ensino Suplementar.
+
+### Taquar · Full Stack Developer & AI Engineer
+
+_Jul 2024 – Jun 2025 · Remote_
+
+Full-stack development and AI engineering at a legal-tech startup. Scrapers, government API integrations, and ML pipelines.
+
+### LED-UFAL · Research & Development Assistant
+
+_Feb 2022 – Jan 2025 · Maceió, Brazil_
+
+3 years of research at the **Laboratório de Estatística e Ciência de Dados** at UFAL, under Prof. Krerley Oliveira. Datasets, NLP tooling, and statistical models.
 
 ---
 
 ## Education
 
-| Institution | Program | Period |
-|-------------|---------|--------|
-| **Insper** | B.Sc. Computer Science | 2022 – 2026 |
-| **FGV EMAp** | Summer School in Applied Mathematics | 2024 |
-| **UFAL** | Computer Science (transferred) | 2021 – 2022 |
-| **NES / Insper** | Health Data Research | 2023 – 2024 |
-| **FGV Verões** | Econometrics & Data Science | 2023 |
+| Institution | Program                         | Period              |
+| ----------- | ------------------------------- | ------------------- |
+| **Insper**  | B.Sc. Computer Science          | Jan 2025 – Dec 2028 |
+| **FGV**     | Summer School, Computer Science | Jan 2025 – Mar 2025 |
 
 ---
 
 ## Skills
 
 **Languages:** Python, TypeScript/JavaScript, Go, SQL, Bash
-**Frameworks:** FastAPI, Django, React, Next.js, Hugo
+**Frameworks:** FastAPI, Django, React, Next.js
 **Tools:** Docker, PostgreSQL, Redis, Git, GitHub Actions
-**Interests:** Web Scraping, NLP, LLMs, Data Engineering, DevOps
+**Interests:** LLMs, AI Agents, Web Scraping, Data Engineering
 
 ---
 
@@ -67,7 +95,7 @@ Worked at the **Laboratório de Exploração de Dados** at UFAL on NLP research.
 
 {{< raw >}}
 <a href="https://wakatime.com/@felipeadeildo">
-  <img src="https://wakatime.com/badge/user/felipeadeildo.svg" alt="Total time coded since start" />
+<img src="https://wakatime.com/badge/user/felipeadeildo.svg" alt="Total time coded since start" />
 </a>
 {{< /raw >}}
 

@@ -1,2 +1,13 @@
 // Custom styles for felipeadeildo.com
-// Add site-specific overrides here
+
+// Larger, centered avatar on homepage
+.home-avatar img {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50%;
+}
+
+// Center the entire home profile block
+.home-profile {
+  text-align: center;
+}

@@ -40,7 +40,7 @@ enableEmoji = true
   defaultTheme = "auto"
   dateFormat = "2006-01-02"
   title = "Felipe Adeildo"
-  description = "CS student at Insper. Web Scraping, AI, and a rubber duck."
+  description = "Co-Founder @ RanqIA · Fellow Estudar '25 · Behring Scholar '25 · CS @ Insper '25"
   images = ["/images/og-image.jpg"]
 
   [params.author]
@@ -70,7 +70,7 @@ enableEmoji = true
       enable = true
       avatarURL = "/images/profile.png"
       title = "Felipe Adeildo"
-      subtitle = "CS @ Insper · Web Scraping · AI Enthusiast · Rubber Duck Owner"
+      subtitle = "Co-Founder @ RanqIA · Fellow Estudar '25 · Behring Scholar '25 · CS @ Insper"
       typeit = true
       social = true
     [params.home.posts]

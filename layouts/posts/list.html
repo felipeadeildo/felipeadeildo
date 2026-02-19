@@ -23,7 +23,6 @@
 
         {{- /* ── Sidebar ── */ -}}
         <aside class="blog-sidebar">
-            <p class="blog-sidebar-title">Writing</p>
             <p class="blog-sidebar-desc">Things I figured out, things I'm still figuring out, and the occasional rant about tools that are 90% of the way there.</p>
             <p class="blog-sidebar-sub">{{ len .Pages }} posts</p>
 
@@ -50,6 +49,11 @@
                 </div>
             </div>
             {{- end -}}
+
+            <div class="blog-sidebar-browse">
+                <a href="/tags/">all tags</a>
+                <a href="/categories/">all categories</a>
+            </div>
         </aside>
 
         {{- /* ── Posts ── */ -}}

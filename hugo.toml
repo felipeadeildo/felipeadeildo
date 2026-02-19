@@ -29,12 +29,6 @@ enableEmoji = true
     pre = "<i class='fas fa-user fa-fw'></i>"
     name = "About"
     url = "/about/"
-  [[menu.main]]
-    weight = 4
-    identifier = "tags"
-    pre = "<i class='fas fa-tags fa-fw'></i>"
-    name = "Tags"
-    url = "/tags/"
 
 [params]
   defaultTheme = "auto"

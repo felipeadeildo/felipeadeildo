@@ -1,6 +1,179 @@
 // Custom styles for felipeadeildo.com
 
-// ─── About page ──────────────────────────────────────────────────────────────
+// ─── Blog list ───────────────────────────────────────────────────────────────
+
+.blog-list-page {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+// Two-column layout: sidebar + main
+.blog-layout {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 3rem;
+  align-items: start;
+
+  @media (max-width: 680px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+// Sidebar
+.blog-sidebar {
+  position: sticky;
+  top: 5rem;
+}
+
+.blog-sidebar-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0 0 0.1rem;
+}
+
+.blog-sidebar-sub {
+  font-size: 0.78rem;
+  opacity: 0.4;
+  margin: 0 0 1.6rem;
+}
+
+.blog-filter-group {
+  margin-bottom: 1.4rem;
+}
+
+.blog-filter-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.35;
+  margin-bottom: 0.5rem;
+}
+
+.blog-filter-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.blog-filter-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.15s, background 0.15s;
+  color: inherit;
+
+  &:hover { opacity: 0.9; background: rgba(128,128,128,0.08); }
+  &.active { opacity: 1; color: #4f46e5; font-weight: 600; }
+}
+
+// Post cards
+.blog-main { min-width: 0; }
+
+.blog-cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-card {
+  border-bottom: 1px solid rgba(128,128,128,0.12);
+  &:first-child { border-top: 1px solid rgba(128,128,128,0.12); }
+}
+
+.blog-card-link {
+  display: block;
+  padding: 1.3rem 0;
+  transition: opacity 0.15s;
+
+  &:hover { opacity: 0.7; text-decoration: none; }
+}
+
+.blog-card-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.35rem;
+}
+
+.blog-card-date {
+  font-size: 0.75rem;
+  opacity: 0.4;
+}
+
+.blog-card-read {
+  font-size: 0.72rem;
+  opacity: 0.3;
+  &::before { content: '·'; margin-right: 0.6rem; }
+}
+
+.blog-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.35rem;
+  line-height: 1.35;
+  border: none;
+  padding: 0;
+}
+
+.blog-card-desc {
+  font-size: 0.83rem;
+  opacity: 0.58;
+  line-height: 1.55;
+  margin: 0 0 0.55rem;
+}
+
+.blog-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.blog-card-tag {
+  font-size: 0.68rem;
+  padding: 0.1rem 0.4rem;
+  border-radius: 99px;
+  background: rgba(128,128,128,0.1);
+  opacity: 0.65;
+
+  &--cat {
+    background: rgba(79,70,229,0.1);
+    color: #4f46e5;
+    opacity: 1;
+  }
+}
+
+.blog-empty {
+  opacity: 0.4;
+  font-size: 0.85rem;
+  margin-top: 1.5rem;
+}
+
+// Term page (individual tag/category)
+.blog-list-header { margin-bottom: 2rem; }
+.blog-list-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0.3rem 0;
+  border: none;
+  padding: 0;
+}
+.blog-list-sub { font-size: 0.82rem; opacity: 0.45; margin: 0; }
+.term-back {
+  font-size: 0.78rem;
+  opacity: 0.45;
+  display: block;
+  margin-bottom: 0.4rem;
+  &:hover { opacity: 0.9; }
+}
 
 .about-page {
   max-width: 720px;
@@ -59,12 +232,16 @@
   opacity: 0.5;
   margin: 0.2rem 0 0;
 
-  i { margin-right: 0.3rem; }
+  i {
+    margin-right: 0.3rem;
+  }
 }
 
 .about-hero-badge {
   margin-top: 0.5rem;
-  img { height: 20px; }
+  img {
+    height: 20px;
+  }
 }
 
 .about-section {
@@ -81,7 +258,9 @@
   border-bottom: 1px solid currentColor;
   padding-bottom: 0.4rem;
 
-  i { margin-right: 0.4rem; }
+  i {
+    margin-right: 0.4rem;
+  }
 }
 
 .about-bio {
@@ -102,7 +281,7 @@
     top: 6px;
     bottom: 0;
     width: 1px;
-    background: rgba(128,128,128,0.2);
+    background: rgba(128, 128, 128, 0.2);
   }
 }
 
@@ -110,7 +289,9 @@
   position: relative;
   margin-bottom: 1.6rem;
 
-  &:last-child { margin-bottom: 0; }
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .timeline-dot {
@@ -120,8 +301,8 @@
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: rgba(128,128,128,0.35);
-  border: 2px solid rgba(128,128,128,0.2);
+  background: rgba(128, 128, 128, 0.35);
+  border: 2px solid rgba(128, 128, 128, 0.2);
 
   .timeline-current & {
     background: #4f46e5;
@@ -129,7 +310,9 @@
   }
 }
 
-.timeline-content { padding-left: 0.2rem; }
+.timeline-content {
+  padding-left: 0.2rem;
+}
 
 .timeline-header {
   display: flex;
@@ -166,7 +349,9 @@
   opacity: 0.45;
   margin-top: 0.15rem;
 
-  i { margin-right: 0.25rem; }
+  i {
+    margin-right: 0.25rem;
+  }
 }
 
 .timeline-desc {
@@ -178,17 +363,30 @@
 
 // WakaTime chart — show dark/light based on theme
 .wakatime-chart {
-  figure { margin: 0; }
-  embed { width: 100%; max-width: 600px; }
+  figure {
+    margin: 0;
+  }
+  embed {
+    width: 100%;
+    max-width: 600px;
+  }
 }
 
-[theme="dark"] {
-  .wakatime-light { display: none; }
-  .wakatime-dark  { display: block; }
+[theme='dark'] {
+  .wakatime-light {
+    display: none;
+  }
+  .wakatime-dark {
+    display: block;
+  }
 }
-[theme="light"] {
-  .wakatime-dark  { display: none; }
-  .wakatime-light { display: block; }
+[theme='light'] {
+  .wakatime-dark {
+    display: none;
+  }
+  .wakatime-light {
+    display: block;
+  }
 }
 
 .about-wakatime-sub {
@@ -231,8 +429,8 @@
   font-size: 0.78rem;
   padding: 0.2rem 0.6rem;
   border-radius: 99px;
-  background: rgba(128,128,128,0.1);
-  border: 1px solid rgba(128,128,128,0.15);
+  background: rgba(128, 128, 128, 0.1);
+  border: 1px solid rgba(128, 128, 128, 0.15);
 }
 
 // Larger, centered avatar on homepage
@@ -246,8 +444,6 @@
 .home-profile {
   text-align: center;
 }
-
-// ─── Projects page ───────────────────────────────────────────────────────────
 
 .projects-subtitle {
   opacity: 0.6;
@@ -282,7 +478,9 @@
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  transition: border-color 0.2s, transform 0.2s;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
 
   &:hover {
     border-color: rgba(128, 128, 128, 0.5);
@@ -350,7 +548,6 @@
   }
 }
 
-// ─── Quick links on homepage (rendered via disclaimer param)
 .home-disclaimer {
   font-size: 1rem;
   font-weight: normal;

@@ -1,0 +1,129 @@
+{{- define "title" }}Notes - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+
+{{- /* Collect all tags and categories from posts */ -}}
+{{- $allTags := slice -}}
+{{- $allCats := slice -}}
+{{- range .Site.RegularPages -}}
+    {{- if eq .Type "posts" -}}
+        {{- range .Params.tags -}}
+            {{- $allTags = $allTags | append . -}}
+        {{- end -}}
+        {{- range .Params.categories -}}
+            {{- $allCats = $allCats | append . -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+{{- $allTags = $allTags | uniq | sort -}}
+{{- $allCats = $allCats | uniq | sort -}}
+
+<div class="page single special blog-list-page">
+    <div class="blog-layout">
+
+        {{- /* ── Sidebar ── */ -}}
+        <aside class="blog-sidebar">
+            <p class="blog-sidebar-title">Notes</p>
+            <p class="blog-sidebar-sub">{{ len .Pages }} posts</p>
+
+            {{- if $allCats -}}
+            <div class="blog-filter-group">
+                <span class="blog-filter-label">Category</span>
+                <div class="blog-filter-list">
+                    <button class="blog-filter-btn active" data-filter="cat" data-value="all">all</button>
+                    {{- range $allCats -}}
+                    <button class="blog-filter-btn" data-filter="cat" data-value="{{ . }}">{{ . }}</button>
+                    {{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+
+            {{- if $allTags -}}
+            <div class="blog-filter-group">
+                <span class="blog-filter-label">Tags</span>
+                <div class="blog-filter-list">
+                    <button class="blog-filter-btn active" data-filter="tag" data-value="all">all</button>
+                    {{- range $allTags -}}
+                    <button class="blog-filter-btn" data-filter="tag" data-value="{{ . }}">{{ . }}</button>
+                    {{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+        </aside>
+
+        {{- /* ── Posts ── */ -}}
+        <div class="blog-main">
+            <div class="blog-cards" id="blog-cards">
+                {{- range .Pages.ByDate.Reverse -}}
+                <article class="blog-card"
+                    data-tags="{{ delimit .Params.tags "," }}"
+                    data-cats="{{ delimit .Params.categories "," }}">
+                    <a href="{{ .RelPermalink }}" class="blog-card-link">
+                        <div class="blog-card-meta">
+                            <time class="blog-card-date">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+                            <span class="blog-card-read">{{ .ReadingTime }} min read</span>
+                        </div>
+                        <h2 class="blog-card-title">{{ .Title | emojify }}</h2>
+                        <p class="blog-card-desc">{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
+                        <div class="blog-card-tags">
+                            {{- range .Params.categories -}}
+                            <span class="blog-card-tag blog-card-tag--cat">{{ . }}</span>
+                            {{- end -}}
+                            {{- range .Params.tags -}}
+                            <span class="blog-card-tag">{{ . }}</span>
+                            {{- end -}}
+                        </div>
+                    </a>
+                </article>
+                {{- end -}}
+            </div>
+
+            <p class="blog-empty" id="blog-empty" style="display:none">No posts match this filter.</p>
+
+            {{- if not .Pages -}}
+            <p class="blog-empty">No posts yet. Check back soon.</p>
+            {{- end -}}
+        </div>
+
+    </div>
+</div>
+
+<script>
+(function () {
+    var activeCat = 'all';
+    var activeTag = 'all';
+
+    function filterCards() {
+        var cards = document.querySelectorAll('.blog-card');
+        var shown = 0;
+        cards.forEach(function (card) {
+            var cats = card.dataset.cats ? card.dataset.cats.split(',') : [];
+            var tags = card.dataset.tags ? card.dataset.tags.split(',') : [];
+            var catOk = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
+            var tagOk = activeTag === 'all' || tags.indexOf(activeTag) !== -1;
+            var show = catOk && tagOk;
+            card.style.display = show ? '' : 'none';
+            if (show) shown++;
+        });
+        var empty = document.getElementById('blog-empty');
+        if (empty) empty.style.display = shown === 0 ? '' : 'none';
+    }
+
+    document.querySelectorAll('.blog-filter-btn').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var filter = btn.dataset.filter;
+            var value  = btn.dataset.value;
+
+            // deactivate siblings in same group
+            document.querySelectorAll('.blog-filter-btn[data-filter="' + filter + '"]')
+                .forEach(function (b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+
+            if (filter === 'cat') activeCat = value;
+            if (filter === 'tag') activeTag = value;
+            filterCards();
+        });
+    });
+})();
+</script>
+{{- end -}}

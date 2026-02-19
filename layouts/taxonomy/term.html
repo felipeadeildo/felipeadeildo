@@ -1,0 +1,36 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+{{- $singular := .Data.Singular -}}
+<div class="page single special blog-list-page">
+    <div class="blog-list-header">
+        <a href="{{ if eq $singular "tag" }}/tags/{{ else }}/categories/{{ end }}" class="term-back">
+            ← {{ if eq $singular "tag" }}tags{{ else }}categories{{ end }}
+        </a>
+        <h1 class="blog-list-title">
+            {{- if eq $singular "tag" -}}#{{ end }}{{ .Title }}
+        </h1>
+        <p class="blog-list-sub">{{ len .Pages }} post{{ if ne (len .Pages) 1 }}s{{ end }}</p>
+    </div>
+
+    <div class="blog-cards">
+        {{- range .Pages.ByDate.Reverse -}}
+        <article class="blog-card">
+            <a href="{{ .RelPermalink }}" class="blog-card-link">
+                <div class="blog-card-meta">
+                    <time class="blog-card-date">{{ .PublishDate.Format "Jan 2, 2006" }}</time>
+                    <span class="blog-card-read">{{ .ReadingTime }} min read</span>
+                </div>
+                <h2 class="blog-card-title">{{ .Title | emojify }}</h2>
+                <p class="blog-card-desc">{{ .Description | default (.Summary | plainify | truncate 160) }}</p>
+                <div class="blog-card-tags">
+                    {{- range .Params.tags -}}
+                    <span class="blog-card-tag">{{ . }}</span>
+                    {{- end -}}
+                </div>
+            </a>
+        </article>
+        {{- end -}}
+    </div>
+</div>
+{{- end -}}

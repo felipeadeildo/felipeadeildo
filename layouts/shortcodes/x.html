@@ -1,0 +1,7 @@
+{{- /* Override: Hugo 0.155+ removed _internal/shortcodes/x.html */ -}}
+{{- $id := .Get 0 | default (.Get "id") -}}
+{{- if $id -}}
+<blockquote class="x-tweet">
+  <a href="https://x.com/i/web/status/{{ $id }}" target="_blank" rel="noopener noreferrer">View on X (Twitter)</a>
+</blockquote>
+{{- end -}}

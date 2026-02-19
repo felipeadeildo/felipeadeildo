@@ -1,3 +1,176 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://felipeadeildo.com/"
+theme = "LoveIt"
+title = "Felipe Adeildo"
+languageCode = "en"
+languageName = "English"
+enableRobotsTXT = true
+enableGitInfo = true
+enableEmoji = true
+
+[pagination]
+  pagerSize = 10
+
+[menu]
+  [[menu.main]]
+    weight = 1
+    identifier = "posts"
+    pre = "<i class='fas fa-pen-to-square fa-fw'></i>"
+    name = "Blog"
+    url = "/posts/"
+  [[menu.main]]
+    weight = 2
+    identifier = "projects"
+    pre = "<i class='fas fa-briefcase fa-fw'></i>"
+    name = "Projects"
+    url = "/projects/"
+  [[menu.main]]
+    weight = 3
+    identifier = "about"
+    pre = "<i class='fas fa-user fa-fw'></i>"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    weight = 4
+    identifier = "tags"
+    pre = "<i class='fas fa-tags fa-fw'></i>"
+    name = "Tags"
+    url = "/tags/"
+
+[params]
+  defaultTheme = "auto"
+  dateFormat = "2006-01-02"
+  title = "Felipe Adeildo"
+  description = "CS student at Insper. Web Scraping, AI, and a rubber duck."
+  images = ["/images/og-image.jpg"]
+
+  [params.author]
+    name = "Felipe Adeildo"
+    email = "contato@felipeadeildo.com"
+    link = "https://felipeadeildo.com"
+
+  [params.header]
+    desktopMode = "fixed"
+    mobileMode = "auto"
+    [params.header.title]
+      logo = ""
+      name = "Felipe Adeildo"
+      pre = ""
+      typeit = false
+
+  [params.footer]
+    enable = true
+    hugo = true
+    copyright = true
+    author = true
+    since = 2025
+
+  [params.home]
+    rss = 10
+    [params.home.profile]
+      enable = true
+      avatarURL = "/images/profile.png"
+      title = "Felipe Adeildo"
+      subtitle = "CS @ Insper · Web Scraping · AI Enthusiast · Rubber Duck Owner"
+      typeit = true
+      social = true
+    [params.home.posts]
+      enable = true
+      paginate = 6
+
+  [params.social]
+    GitHub = "felipeadeildo"
+    Linkedin = "felipeadeildo"
+    Telegram = "felipeadeildo"
+    Email = "contato@felipeadeildo.com"
+    RSS = true
+
+  [params.search]
+    enable = true
+    type = "lunr"
+    contentLength = 4000
+    maxResultLength = 10
+    snippetLength = 30
+    highlightTag = "em"
+
+  [params.page]
+    twemoji = false
+    lightgallery = false
+    linkToMarkdown = true
+    [params.page.toc]
+      enable = true
+      keepStatic = false
+      auto = true
+    [params.page.math]
+      enable = true
+      copyTex = true
+      mhchem = true
+    [params.page.code]
+      copy = true
+      maxShownLines = 50
+    [params.page.share]
+      enable = true
+      X = true
+      Telegram = true
+      HackerNews = true
+    [params.page.comment]
+      enable = true
+      [params.page.comment.giscus]
+        enable = true
+        repo = "felipeadeildo/felipeadeildo"
+        repoId = ""
+        category = "Announcements"
+        categoryId = ""
+        mapping = "pathname"
+        reactionsEnabled = "1"
+        emitMetadata = "0"
+        inputPosition = "bottom"
+        lazyLoading = false
+        lightTheme = "light"
+        darkTheme = "dark"
+
+  [params.analytics]
+    [params.analytics.google]
+      id = "G-P9C71V55JE"
+      respectDoNotTrack = false
+
+  [params.typeit]
+    speed = 100
+    cursorSpeed = 1000
+    cursorChar = "|"
+    duration = -1
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 6
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[Permalinks]
+  posts = ":contentbasename"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]

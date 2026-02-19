@@ -1,0 +1,7 @@
+{{- /* Override: Hugo 0.155+ removed _internal/shortcodes/instagram.html */ -}}
+{{- $id := .Get 0 | default (.Get "id") -}}
+{{- if $id -}}
+<blockquote class="instagram-media">
+  <a href="https://www.instagram.com/p/{{ $id }}/" target="_blank" rel="noopener noreferrer">View on Instagram</a>
+</blockquote>
+{{- end -}}

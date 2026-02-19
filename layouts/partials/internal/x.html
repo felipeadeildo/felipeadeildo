@@ -1,0 +1,6 @@
+{{- /* Override: Hugo 0.155+ removed _internal/shortcodes/x.html. Render X/Twitter embed via oEmbed. */ -}}
+{{- $id := .id -}}
+{{- $url := printf "https://x.com/i/web/status/%s" $id -}}
+<blockquote class="x-tweet">
+  <a href="{{ $url }}" target="_blank" rel="noopener noreferrer">View on X (Twitter)</a>
+</blockquote>

@@ -12,7 +12,110 @@
   text-align: center;
 }
 
-// Quick links on homepage (rendered via disclaimer param)
+// ─── Projects page ───────────────────────────────────────────────────────────
+
+.projects-subtitle {
+  opacity: 0.6;
+  margin-bottom: 2rem;
+}
+
+.project-group {
+  margin-bottom: 2.5rem;
+}
+
+.project-group-title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.45;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.4rem;
+}
+
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 8px;
+  padding: 1.1rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: border-color 0.2s, transform 0.2s;
+
+  &:hover {
+    border-color: rgba(128, 128, 128, 0.5);
+    transform: translateY(-2px);
+  }
+}
+
+.project-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.project-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.project-link {
+  opacity: 0.5;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.project-desc {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  line-height: 1.5;
+  flex: 1;
+  margin: 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-top: 0.3rem;
+}
+
+.project-tag {
+  font-size: 0.72rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 99px;
+  background: rgba(128, 128, 128, 0.12);
+  opacity: 0.8;
+}
+
+.projects-more {
+  margin-top: 2rem;
+  text-align: center;
+
+  a {
+    opacity: 0.6;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+// ─── Quick links on homepage (rendered via disclaimer param)
 .home-disclaimer {
   font-size: 1rem;
   font-weight: normal;

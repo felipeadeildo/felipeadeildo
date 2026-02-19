@@ -1,0 +1,40 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+<div class="page single special">
+    <h1 class="single-title animate__animated animate__pulse animate__faster">Projects</h1>
+    <p class="projects-subtitle">Things I've built — tools, experiments, and open source work.</p>
+
+    {{- range .Params.groups -}}
+    <section class="project-group">
+        <h2 class="project-group-title">{{ .title }}</h2>
+        <div class="project-cards">
+            {{- range .projects -}}
+            <div class="project-card">
+                <div class="project-card-header">
+                    <span class="project-name">{{ .name }}</span>
+                    {{- if .url -}}
+                    <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="project-link" title="View on GitHub">
+                        <i class="fab fa-github fa-fw" aria-hidden="true"></i>
+                    </a>
+                    {{- end -}}
+                </div>
+                <p class="project-desc">{{ .desc }}</p>
+                <div class="project-tags">
+                    {{- range .tags -}}
+                    <span class="project-tag">{{ . }}</span>
+                    {{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </section>
+    {{- end -}}
+
+    <div class="projects-more">
+        <a href="https://github.com/felipeadeildo?tab=repositories" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-github fa-fw" aria-hidden="true"></i> See all repositories on GitHub
+        </a>
+    </div>
+</div>
+{{- end -}}

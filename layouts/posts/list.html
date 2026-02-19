@@ -23,7 +23,8 @@
 
         {{- /* ── Sidebar ── */ -}}
         <aside class="blog-sidebar">
-            <p class="blog-sidebar-title">Notes</p>
+            <p class="blog-sidebar-title">Writing</p>
+            <p class="blog-sidebar-desc">Things I figured out, things I'm still figuring out, and the occasional rant about tools that are 90% of the way there.</p>
             <p class="blog-sidebar-sub">{{ len .Pages }} posts</p>
 
             {{- if $allCats -}}
@@ -93,35 +94,59 @@
     var activeCat = 'all';
     var activeTag = 'all';
 
-    function filterCards() {
+    // Parse hash: #tag=python or #cat=engineering or #tag=python&cat=engineering
+    function parseHash() {
+        var hash = window.location.hash.replace('#', '');
+        var params = {};
+        hash.split('&').forEach(function (part) {
+            var kv = part.split('=');
+            if (kv.length === 2) params[kv[0]] = decodeURIComponent(kv[1]);
+        });
+        return params;
+    }
+
+    function updateHash() {
+        var parts = [];
+        if (activeCat !== 'all') parts.push('cat=' + encodeURIComponent(activeCat));
+        if (activeTag !== 'all') parts.push('tag=' + encodeURIComponent(activeTag));
+        history.replaceState(null, '', parts.length ? '#' + parts.join('&') : window.location.pathname);
+    }
+
+    function applyFilters() {
         var cards = document.querySelectorAll('.blog-card');
         var shown = 0;
         cards.forEach(function (card) {
             var cats = card.dataset.cats ? card.dataset.cats.split(',') : [];
             var tags = card.dataset.tags ? card.dataset.tags.split(',') : [];
-            var catOk = activeCat === 'all' || cats.indexOf(activeCat) !== -1;
-            var tagOk = activeTag === 'all' || tags.indexOf(activeTag) !== -1;
-            var show = catOk && tagOk;
+            var show = (activeCat === 'all' || cats.indexOf(activeCat) !== -1)
+                    && (activeTag === 'all' || tags.indexOf(activeTag) !== -1);
             card.style.display = show ? '' : 'none';
             if (show) shown++;
         });
         var empty = document.getElementById('blog-empty');
         if (empty) empty.style.display = shown === 0 ? '' : 'none';
+
+        // Sync button active states
+        document.querySelectorAll('.blog-filter-btn').forEach(function (btn) {
+            var match = (btn.dataset.filter === 'cat' && btn.dataset.value === activeCat)
+                     || (btn.dataset.filter === 'tag' && btn.dataset.value === activeTag);
+            btn.classList.toggle('active', match);
+        });
     }
+
+    // Init from hash on load
+    var initial = parseHash();
+    activeCat = initial.cat || 'all';
+    activeTag = initial.tag || 'all';
+    applyFilters();
 
     document.querySelectorAll('.blog-filter-btn').forEach(function (btn) {
         btn.addEventListener('click', function () {
-            var filter = btn.dataset.filter;
-            var value  = btn.dataset.value;
-
-            // deactivate siblings in same group
-            document.querySelectorAll('.blog-filter-btn[data-filter="' + filter + '"]')
-                .forEach(function (b) { b.classList.remove('active'); });
-            btn.classList.add('active');
-
-            if (filter === 'cat') activeCat = value;
-            if (filter === 'tag') activeTag = value;
-            filterCards();
+            var f = btn.dataset.filter, v = btn.dataset.value;
+            if (f === 'cat') activeCat = (activeCat === v) ? 'all' : v;
+            if (f === 'tag') activeTag = (activeTag === v) ? 'all' : v;
+            updateHash();
+            applyFilters();
         });
     });
 })();

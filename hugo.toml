@@ -111,9 +111,9 @@ enableEmoji = true
       [params.page.comment.giscus]
         enable = true
         repo = "felipeadeildo/felipeadeildo"
-        repoId = ""
+        repoId = "R_kgDOJi4JXA"
         category = "Announcements"
-        categoryId = ""
+        categoryId = "DIC_kwDOJi4JXM4C2wd4"
         mapping = "pathname"
         reactionsEnabled = "1"
         emitMetadata = "0"

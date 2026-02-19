@@ -59,10 +59,10 @@ enableEmoji = true
 
   [params.footer]
     enable = true
-    hugo = true
-    copyright = true
-    author = true
-    since = 2025
+    hugo = false
+    copyright = false
+    author = false
+    custom = "<span style='opacity:0.4;font-size:0.85rem'>aldeído</span>"
 
   [params.home]
     rss = 10

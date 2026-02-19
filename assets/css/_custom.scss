@@ -11,3 +11,21 @@
 .home-profile {
   text-align: center;
 }
+
+// Quick links on homepage (rendered via disclaimer param)
+.home-disclaimer {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-top: 1rem;
+  letter-spacing: 0.03em;
+
+  a {
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    transition: opacity 0.2s;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

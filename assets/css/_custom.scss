@@ -1,5 +1,240 @@
 // Custom styles for felipeadeildo.com
 
+// ─── About page ──────────────────────────────────────────────────────────────
+
+.about-page {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.about-hero {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.about-avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.about-hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.about-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  border: none;
+  padding: 0;
+}
+
+.about-pronouns {
+  font-size: 0.8rem;
+  opacity: 0.45;
+  margin: 0;
+}
+
+.about-headline {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  margin: 0.25rem 0 0;
+  line-height: 1.5;
+}
+
+.about-location {
+  font-size: 0.82rem;
+  opacity: 0.5;
+  margin: 0.2rem 0 0;
+
+  i { margin-right: 0.3rem; }
+}
+
+.about-hero-badge {
+  margin-top: 0.5rem;
+  img { height: 20px; }
+}
+
+.about-section {
+  margin-bottom: 2.5rem;
+}
+
+.about-section-title {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.45;
+  margin-bottom: 1.2rem;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 0.4rem;
+
+  i { margin-right: 0.4rem; }
+}
+
+.about-bio {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  opacity: 0.85;
+}
+
+// Timeline
+.timeline {
+  position: relative;
+  padding-left: 1.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    bottom: 0;
+    width: 1px;
+    background: rgba(128,128,128,0.2);
+  }
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 1.6rem;
+
+  &:last-child { margin-bottom: 0; }
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -1.5rem;
+  top: 6px;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: rgba(128,128,128,0.35);
+  border: 2px solid rgba(128,128,128,0.2);
+
+  .timeline-current & {
+    background: #4f46e5;
+    border-color: #4f46e5;
+  }
+}
+
+.timeline-content { padding-left: 0.2rem; }
+
+.timeline-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.timeline-role {
+  font-weight: 600;
+  font-size: 0.92rem;
+}
+
+.timeline-period {
+  font-size: 0.78rem;
+  opacity: 0.5;
+  white-space: nowrap;
+}
+
+.timeline-company {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin-top: 0.1rem;
+}
+
+.timeline-type {
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.timeline-location {
+  font-size: 0.78rem;
+  opacity: 0.45;
+  margin-top: 0.15rem;
+
+  i { margin-right: 0.25rem; }
+}
+
+.timeline-desc {
+  font-size: 0.83rem;
+  opacity: 0.65;
+  margin: 0.4rem 0 0;
+  line-height: 1.5;
+}
+
+// WakaTime chart — show dark/light based on theme
+.wakatime-chart {
+  figure { margin: 0; }
+  embed { width: 100%; max-width: 600px; }
+}
+
+[theme="dark"] {
+  .wakatime-light { display: none; }
+  .wakatime-dark  { display: block; }
+}
+[theme="light"] {
+  .wakatime-dark  { display: none; }
+  .wakatime-light { display: block; }
+}
+
+.about-wakatime-sub {
+  font-size: 0.8rem;
+  opacity: 0.45;
+  margin-bottom: 0.8rem;
+}
+
+// Skills grid
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.skill-group-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.4;
+  min-width: 90px;
+  padding-top: 0.2rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.skill-tag {
+  font-size: 0.78rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 99px;
+  background: rgba(128,128,128,0.1);
+  border: 1px solid rgba(128,128,128,0.15);
+}
+
 // Larger, centered avatar on homepage
 .home-avatar img {
   width: 160px !important;

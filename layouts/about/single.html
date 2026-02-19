@@ -1,0 +1,101 @@
+{{- define "title" }}{{ .Title }} - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" -}}
+{{- $p := .Params -}}
+<div class="page single special about-page">
+
+    {{- /* Hero */ -}}
+    <div class="about-hero">
+        <img class="about-avatar" src="/images/profile.png" alt="Felipe Adeildo" />
+        <div class="about-hero-text">
+            <h1 class="about-name">{{ $p.name }}</h1>
+            <p class="about-pronouns">{{ $p.pronouns }}</p>
+            <p class="about-headline">{{ $p.headline | safeHTML }}</p>
+            <p class="about-location"><i class="fas fa-map-marker-alt fa-fw"></i> {{ $p.location }}</p>
+            <div class="about-hero-badge">
+                <a href="https://wakatime.com/@felipeadeildo" target="_blank" rel="noopener noreferrer">
+                    <img src="https://wakatime.com/badge/user/8aa702bf-29dc-44df-94de-b7f6dabd91fe.svg?style=flat-square" alt="wakatime" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    {{- /* Bio */ -}}
+    <section class="about-section">
+        <p class="about-bio">{{ $p.bio | safeHTML }}</p>
+    </section>
+
+    {{- /* Experience timeline */ -}}
+    <section class="about-section">
+        <h2 class="about-section-title"><i class="fas fa-briefcase fa-fw"></i> Experience</h2>
+        <div class="timeline">
+            {{- range $p.experience -}}
+            <div class="timeline-item{{ if .current }} timeline-current{{ end }}">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <span class="timeline-role">{{ .role }}</span>
+                        <span class="timeline-period">{{ .period }}</span>
+                    </div>
+                    <div class="timeline-company">{{ .company }}{{ with .type }} · <span class="timeline-type">{{ . }}</span>{{ end }}</div>
+                    <div class="timeline-location"><i class="fas fa-map-marker-alt fa-fw"></i>{{ .location }}</div>
+                    {{- with .desc -}}<p class="timeline-desc">{{ . }}</p>{{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </section>
+
+    {{- /* Education */ -}}
+    <section class="about-section">
+        <h2 class="about-section-title"><i class="fas fa-graduation-cap fa-fw"></i> Education</h2>
+        <div class="timeline">
+            {{- range $p.education -}}
+            <div class="timeline-item{{ if .current }} timeline-current{{ end }}">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <span class="timeline-role">{{ .degree }}</span>
+                        <span class="timeline-period">{{ .period }}</span>
+                    </div>
+                    <div class="timeline-company">{{ .institution }}</div>
+                    {{- with .desc -}}<p class="timeline-desc">{{ . }}</p>{{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </section>
+
+    {{- /* WakaTime stats */ -}}
+    <section class="about-section">
+        <h2 class="about-section-title"><i class="fas fa-code fa-fw"></i> Coding Activity</h2>
+        <p class="about-wakatime-sub">Last 7 days</p>
+        <div class="wakatime-chart">
+            <figure class="wakatime-dark">
+                <embed src="https://wakatime.com/share/@felipeadeildo/62c59d75-bdb3-4cc6-adfa-fe1c98a15b45.svg" />
+            </figure>
+            <figure class="wakatime-light">
+                <embed src="https://wakatime.com/share/@felipeadeildo/fa741869-b6b0-4e44-a7ad-99fcb4dc59b8.svg" />
+            </figure>
+        </div>
+    </section>
+
+    {{- /* Skills */ -}}
+    <section class="about-section">
+        <h2 class="about-section-title"><i class="fas fa-layer-group fa-fw"></i> Skills</h2>
+        <div class="skills-grid">
+            {{- range $p.skills -}}
+            <div class="skill-group">
+                <span class="skill-group-label">{{ .label }}</span>
+                <div class="skill-tags">
+                    {{- range .items -}}
+                    <span class="skill-tag">{{ . }}</span>
+                    {{- end -}}
+                </div>
+            </div>
+            {{- end -}}
+        </div>
+    </section>
+
+</div>
+{{- end -}}

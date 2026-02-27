@@ -4,7 +4,7 @@
 Machine Learning | Mathematics | Web Scraping | Almost-Fullstack Developer (wth's that?)
 ```
 
-Computer Science student at Insper. I like to understand how things works really... internally!
+Founder Engineer at [RanqIA](https://ranqia.ai). I like to understand how things works really... internally!
 
 ## Tech
 

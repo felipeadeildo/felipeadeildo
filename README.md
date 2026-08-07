@@ -20,6 +20,6 @@ Python • TypeScript • GoLang • Anything that makes me money/happy
 - **[bomb-insper](https://github.com/insper-dev/bomb)** - Bomberman-like online game made with FastAPI and PyGame
 - **[autosinan](https://github.com/felipeadeildo/autosinan)** - Automation for Sinan Health System
 
-[![Portfolio](https://img.shields.io/badge/felipeadeildo.com-FF6B6B?style=flat-square&logo=firefox&logoColor=white)](https://felipeadeildo.com)
+[![Portfolio](https://img.shields.io/badge/fa.dev.br-FF6B6B?style=flat-square&logo=firefox&logoColor=white)](https://fa.dev.br)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipeadeildo)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:contato@felipeadeildo.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:blablabla-catch-all-my-friend@felipeadeildo.com)
